@@ -1,0 +1,97 @@
+/* Reset and Center */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa !important; /* Light grey background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* The White Card */
+.card {
+  background: white !important;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+/* Input Fields */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white !important;
+  color: #333 !important;
+  box-sizing: border-box;
+}
+
+/* The Green Button */
+.add-btn {
+  width: 100%;
+  background-color: #67b279 !important; /* The specific green from your image */
+  color: white !important;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #569a66 !important;
+}
+
+/* Total Section */
+.total {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #222;
+}
+
+/* List Items */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  color: #444;
+  font-size: 17px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: transparent !important;
+  color: #dc3545 !important;
+  border: 1px solid #dc3545 !important;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
